@@ -1,0 +1,21 @@
+.MainPage{
+    padding-top: 1rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ 
+@media screen and (max-width: 1200px) {
+    .MainPage{
+        justify-content:flex-start;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .MainPage{
+        align-items: center;
+    }
+}
